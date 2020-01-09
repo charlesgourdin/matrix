@@ -7,7 +7,7 @@ const Cell = (props) => {
             <p style={{
                 color: `${props.color}`,
                 opacity: `${props.opacity}`,
-                transition: (props.color==='chartreuse') ? '0s' : `${Math.floor(Math.random() * (5 - 2 + 1)) + 2}s`
+                transition: (props.color==='chartreuse') ? '0s' : `${Math.floor(Math.random() * (7 - 2 + 1)) + 2}s`
             }}>{props.character}</p>
         </div>
     )

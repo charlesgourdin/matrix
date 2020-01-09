@@ -4,7 +4,7 @@ import Cell from './Cell'
 class Column extends Component {
     constructor(props) {
         super(props)
-        this.time = Math.floor(Math.random() * (1000 - 500 + 1)) + 500
+        this.time = Math.floor(Math.random() * (1000 - 300 + 1)) + 300
         this.colorIndex2 = -1
         this.state = {
             tab: [],
